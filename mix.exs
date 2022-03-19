@@ -36,7 +36,7 @@ defmodule Telegram.Mixfile do
 
   defp deps do
     [
-      {:tesla, "~> 1.0"},
+      {:tesla, git: "https://github.com/kingdomcoding/tesla.git", tag: "v1.4.5"},
       # tesla gun adapter + deps
       {:gun, "2.0.0-rc.2"},
       {:ssl_verify_fun, "~> 1.1"},
