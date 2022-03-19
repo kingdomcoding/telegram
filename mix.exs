@@ -38,7 +38,7 @@ defmodule Telegram.Mixfile do
     [
       {:tesla, "~> 1.0"},
       # tesla gun adapter + deps
-      {:gun, "~> 1.3"},
+      {:gun, "2.0.0-rc.2"},
       {:ssl_verify_fun, "~> 1.1"},
       {:castore, "~> 0.1"},
       {:idna, "~> 6.1"},
